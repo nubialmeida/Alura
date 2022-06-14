@@ -1,0 +1,49 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-width: 600px;
+    background-image: url("img/desert.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 16px;
+}
+
+@media (max-width: 500px) {
+    body {
+        min-width: 800px;
+    }
+}
+
+input {
+    margin: 4px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.resultado {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 16px;
+}
