@@ -1,0 +1,51 @@
+* {
+    text-align: center;
+
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    background-image: url("img/background-game.png");
+    /* background-size: cover; */
+    background-size: 100%;
+    min-height: 400px;
+
+}
+
+h1 {
+    color: #ffffff;
+    margin-top: 80px;
+
+}
+
+
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+
+th,
+tr,
+td {
+    border: solid 1px white;
+    color: white;
+}
