@@ -1,6 +1,8 @@
+const formatosValidos = ["jpg", "jpeg", "png"];
+
 function adicionarFilme() {
     var filmeFavorito = document.getElementById("filme").value;
-    if (filmeFavorito.endsWith(".JPG")) {
+    if (formatosValidos.some((formato) => filmeFavorito.endsWith(formato))) {
         listarFilmesNaTela(filmeFavorito);
     } else {
         console.error("Endereço de filme inválido");
